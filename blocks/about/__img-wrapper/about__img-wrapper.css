@@ -1,0 +1,35 @@
+@keyframes move_bg {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(2);
+  }
+}
+
+.about__img-wrapper {
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.about__img-wrapper::before {
+  content: '';
+  position: absolute;
+  top: calc(50% - 25%);
+  left: calc(50% - 25%);
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: var(--extra-color);
+  animation: move_bg 5s infinite alternate;
+  z-index: 2;
+}
+
+@media (max-width: 879px) {
+  .about__img-wrapper {
+    width: 80%;
+  }
+}
+

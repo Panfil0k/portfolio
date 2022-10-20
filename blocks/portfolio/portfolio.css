@@ -1,0 +1,11 @@
+.portfolio {
+  max-width: 1060px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 699px) {
+  .portfolio {
+    margin-top: 100px; 
+  }
+}

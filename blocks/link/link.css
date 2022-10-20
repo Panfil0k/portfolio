@@ -1,0 +1,21 @@
+.link {
+  color: var(--extra-color);
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  transition: all .5s;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  width: 108%;
+  border-bottom: 1px solid var(--extra-color);
+  left: -4%;
+  bottom: -1px;
+  transition: all .5s;
+}
+
+.link:hover {
+  opacity: .6;
+}

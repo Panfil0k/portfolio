@@ -1,0 +1,10 @@
+.about__text-wrapper {
+  width: 60%;
+  max-width: 700px;
+}
+
+@media (max-width: 879px) {
+  .about__text-wrapper {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.about__facts-item {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+@media (max-width: 449px) {
+  .about__facts-item {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}

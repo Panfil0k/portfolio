@@ -1,0 +1,7 @@
+.slider__items {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  transition: transform 0.5s ease;
+}

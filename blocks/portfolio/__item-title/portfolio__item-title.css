@@ -1,0 +1,7 @@
+.portfolio__item-title {
+  margin: 0;
+  padding: 0 10px 0 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+.skills__item {
+  color: #fff;
+  list-style: none;
+  font-size: 20px;
+  line-height: 1.7;
+  position: relative;
+}
+
+.skills__item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--extra-color);
+  right: -30px;
+  top: calc(50% - 10px);
+}

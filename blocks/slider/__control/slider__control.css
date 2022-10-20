@@ -1,0 +1,23 @@
+.slider__control {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  fill: var(--main-color);
+  transform: translateY(-50%);
+  transition: all .3s;
+}
+
+.slider__control[data-slide="prev"] {
+  left: 0;
+}
+
+.slider__control[data-slide="next"] {
+  right: 0;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  fill: var(--extra-color);
+}

@@ -1,0 +1,20 @@
+.header {
+  min-height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 879px) {
+  .header {
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 379px) {
+  .header {
+    margin-top: 20px;
+  }
+}

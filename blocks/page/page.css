@@ -1,0 +1,22 @@
+:root {
+  --main-color: #161513;
+  --extra-color: #E94D35;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  background-color: #F2F1EF;
+  font-family: 'Jura', 'Arial', sans-serif;
+  font-weight: 400;
+  color: var(--main-color);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+

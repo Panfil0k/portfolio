@@ -1,0 +1,32 @@
+.header__nav-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 20px;
+  line-height: 1.5;
+  position: relative;
+  transition: all .3s;
+}
+
+.header__nav-link::before {
+  content: '';
+  width: 108%;
+  border-bottom: 1px solid var(--main-color);
+  position: absolute;
+  left: -4%;
+  bottom: -3px;
+  transition: all .3s;
+}
+
+.header__nav-link:hover {
+  color: var(--extra-color);
+}
+
+.header__nav-link:hover::before {
+  border-color: var(--extra-color);
+}
+
+@media (max-width: 449px) {
+  .header__nav-link {
+    font-size: 16px;
+  }
+}

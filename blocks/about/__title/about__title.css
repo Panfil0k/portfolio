@@ -1,0 +1,40 @@
+.about__title {
+  margin: 0;
+  font-size: 56px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1439px) {
+  .about__title {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1139px) {
+  .about__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 879px) {
+  .about__title {
+    max-width: 470px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 499px) {
+  .about__title {
+    font-size: 32px;
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 379px) {
+  .about__title {
+    font-size: 24px;
+    max-width: 280px;
+  }
+}

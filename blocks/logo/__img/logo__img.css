@@ -1,0 +1,8 @@
+.logo__img {
+  width: 36px;
+  transition: all 1s;
+}
+
+.logo:hover .logo__img {
+  transform: scale(1.6) rotate(-30deg);
+}

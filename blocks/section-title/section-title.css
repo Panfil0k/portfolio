@@ -1,0 +1,18 @@
+.section-title {
+  margin: 0 0 60px 0;
+  font-size: 45px;
+  line-height: 1.24;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: var(--extra-color);
+  border-radius: 50%;
+  left: calc(50% - 20px);
+  top: -45px;
+}

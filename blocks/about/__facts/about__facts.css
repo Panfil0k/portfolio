@@ -1,0 +1,19 @@
+.about__facts {
+  display: flex;
+  column-gap: 50px;
+}
+
+@media (max-width: 879px) {
+  .about__facts {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 449px) {
+  .about__facts {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+}

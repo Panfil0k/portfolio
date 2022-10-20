@@ -1,0 +1,7 @@
+.footer__social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+.logo__text {
+  font-size: 36px;
+  font-family: 'Nippo-Medium';
+  margin: 0 0 0 10px;
+  transition: color .3s;
+}
+
+.logo:hover .logo__text {
+ color: var(--extra-color);
+}

@@ -1,0 +1,19 @@
+.skills {
+ min-height: 65px;
+ margin-top: 100px;
+ background-color: var(--main-color);
+ transform: skew(0, -5deg);
+}
+
+@media (max-width: 699px) {
+  .skills {
+    margin-top: 50px;
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 449px) {
+  .skills {
+    margin-top: 20px;
+  }
+}
